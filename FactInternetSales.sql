@@ -7,7 +7,6 @@ CREATE TABLE [dbo].[FactInternetSales](
 	[PromotionKey] [int] NOT NULL,
 	[CurrencyKey] [int] NOT NULL,
 	[SalesTerritoryKey] [int] NOT NULL,
-	[SalesOrderNumber] [nvarchar](20) NOT NULL,
 	[SalesOrderLineNumber] [tinyint] NOT NULL,
 	[RevisionNumber] [tinyint] NOT NULL,
 	[OrderQuantity] [smallint] NOT NULL,
